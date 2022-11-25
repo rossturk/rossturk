@@ -1,7 +1,7 @@
 
 .btn-stupid-lg {
   margin: 1em;
-  padding: 1.5em;
+  padding: 1em;
   border: none;
   background-color: black;
 }
@@ -23,4 +23,13 @@ body {
 
 .cover-container {
   max-width: 42em;
+}
+
+.about-text {
+  font-size: 0.875rem;
+  margin: 3rem 3rem;
+}
+
+.about-text h6 {
+  font-size: 1.25rem;
 }
