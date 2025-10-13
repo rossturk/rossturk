@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;700;900&display=swap');
 
 .btn-stupid-lg {
   margin: 1em;
@@ -13,7 +15,8 @@
 body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-  font-family: 'Aldrich', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 300;
   background: url('bg.svg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -21,15 +24,60 @@ body {
   -o-background-size: cover;
 }
 
+h1 {
+  font-family: 'Geist', sans-serif;
+  font-weight: 900 !important;
+  font-size: 6.5rem;
+  letter-spacing: -0.06em;
+#  text-transform: uppercase;
+}
+
+h6 {
+  font-family: 'Geist', sans-serif;
+  font-weight: 900 !important;
+#  text-transform: uppercase;
+  letter-spacing: -0.06em;
+}
+
+.lead {
+  font-family: 'Geist', sans-serif;
+  font-weight: 700 !important;
+  font-size: 1.2rem;
+  letter-spacing: 0.03em;
+}
+
 .cover-container {
   max-width: 42em;
 }
 
 .about-text {
-  font-size: 0.875rem;
+  font-size: 0.95rem;
   margin: 3rem 3rem;
 }
 
-.about-text h6 {
-  font-size: 1.25rem;
+.resume-section {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.portfolio-section {
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+.about-text a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+.nav-link-custom {
+  color: white !important;
+  text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-link-custom:hover {
+  opacity: 0.8;
 }
